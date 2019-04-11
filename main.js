@@ -1,3 +1,13 @@
+//object
+
+let user = {
+  name: "crystal",
+  age: 30,
+  email: "angelsol299@hotmail.com",
+  location: "bahia",
+  blogs: ["lets do that", "yes lets get started"]
+};
+console.log(user["email"]);
 //for loop
 
 // for (let i = 0; i < 5; i++) {
@@ -13,7 +23,7 @@
 
 //while loops
 
-const names = ["angel", "osoria", "fernandez"];
+// const names = ["angel", "osoria", "fernandez"];
 
 // let i = 0;
 // while (i < 5) {
@@ -21,8 +31,8 @@ const names = ["angel", "osoria", "fernandez"];
 //   i++;
 // }
 
-let i = 0;
-while (i < names.length) {
-  console.log(names[i]);
-  i++;
-}
+// let i = 0;
+// while (i < names.length) {
+//   console.log(names[i]);
+//   i++;
+// }
