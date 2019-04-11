@@ -1,5 +1,5 @@
 const correctAnswers = ["B", "A", "C", "A"];
-const form = document.querySelector("quiz-form");
+const form = document.querySelector(".quiz-form");
 
 form.addEventListener("submit", e => {
   e.preventDefault();
@@ -12,8 +12,10 @@ form.addEventListener("submit", e => {
   ];
 
   //Check answers
-  userAnswers.forEach((answer, index) =>{
-      if(answer === correctAnswers)
-  })
-
+  userAnswers.forEach((answer, index) => {
+    if (answer === correctAnswers[index]) {
+      score += 25;
+    }
+  });
+  console.log(score);
 });
