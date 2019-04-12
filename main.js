@@ -1,4 +1,4 @@
-const correctAnswers = ["B", "C", "A", "D", "C", "D", "C", "B", "D", "A"];
+const correctAnswers = ["B", "C", "A", "D", "B", "D", "C", "B", "D", "A"];
 const form = document.querySelector(".quiz-form");
 const result = document.querySelector(".result");
 
